@@ -1,3 +1,3 @@
-const HaveANiceDay = require("./function.js");
+import HaveANiceDay from "./function";
 
 HaveANiceDay("Adrian");
