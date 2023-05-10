@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-exercises-develhope",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hakantuncer/NodeJs-Exercises-Develhope.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hakantuncer/NodeJs-Exercises-Develhope/issues"
+  },
+  "homepage": "https://github.com/hakantuncer/NodeJs-Exercises-Develhope#readme",
+  "dependencies": {
+    "figlet": "^1.6.0"
+  }
+}
