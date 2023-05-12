@@ -59,3 +59,4 @@ const deleteOneById = (req, res) => {
     console.log(planets);
 };
 export { getAll, getOneById, createOne, updateOneById, deleteOneById, };
+// I already did that part for Ex-12, Everything tested works perfectly!
