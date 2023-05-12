@@ -1,7 +1,3 @@
-// Configure your app (app.use()) to:
-// accept JSON from the Client
-// log the Client's requests
-
 import express from "express";
 import morgan from "morgan";
 import "dotenv/config";
@@ -29,7 +25,5 @@ app.put("/api/planets/:id", updateOneById);
 app.delete("/api/planets/:id", deleteOneById);
 
 app.listen(port, () => {
-  console.log(
-    `Server is running on port http://localhost:${port}`
-  );
+  console.log(`Server is running on port http://localhost:${port}`);
 });
